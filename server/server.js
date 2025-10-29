@@ -1,7 +1,6 @@
 import path from "path";
 import { fileURLToPath } from "url";
 import express from "express"; 
-//import fetch from "node-fetch";
 import "dotenv/config";
 import pkg from "@paypal/paypal-server-sdk";
 const {
@@ -17,6 +16,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import { sendPaymentConfirmation } from './utils/emailService.js';
 import dotenv from "dotenv";
+import paymentsRouter from "./routes/payments.js";
 
 dotenv.config();
 const app = express();
@@ -28,7 +28,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 // API routes
-app.use("/api", require("./routes/payments.js")); 
+app.use("/api", paymentsRouter); 
 
 // Serve frontend build
 app.use(express.static(path.join(__dirname, "../../dist")));
