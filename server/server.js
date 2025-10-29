@@ -19,13 +19,12 @@ import { sendPaymentConfirmation } from './utils/emailService.js';
 import dotenv from "dotenv";
 
 dotenv.config();
-
 const app = express();
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const express = require("express");
-const path = require("path");
 app.use(cors());
+app.use(express.json());
 app.use(bodyParser.json());
 
 // API routes
