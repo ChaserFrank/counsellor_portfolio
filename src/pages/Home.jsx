@@ -13,10 +13,10 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mb-4">
-                Professional Counselor and a <span className="text-rose-600">Therapist</span>
+                Professional Counsellor and a <span className="text-rose-600">Therapist</span>
               </h1>
               <p className="text-xl text-gray-700 mb-8 max-w-lg">
-                Professional counseling to help you overcome challenges, find balance, 
+                Professional counselling to help you overcome challenges, find balance, 
                 and live a more fulfilling life. Begin your journey to Emotional wellnesss. 
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -65,7 +65,7 @@ const Home = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-semibold mb-6">About {COUNSELOR_NAME}</h2>
               <p className="text-gray-700 mb-6">
-                With over 5 years of experience in mental health counseling, I am dedicated to 
+                With over 5 years of experience in mental health counselling, I am dedicated to 
                 providing compassionate care that addresses the whole person. My integrated approach 
                 combines evidence-based techniques with empathetic listening to help clients overcome 
                 challenges and build resilience.
@@ -73,7 +73,7 @@ const Home = () => {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-1 mr-2" />
-                  <span>Licensed Professional Counselor (LPC)</span>
+                  <span>Licensed Professional Counsellor (LPC)</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-1 mr-2" />
@@ -85,7 +85,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-1 mr-2" />
-                  <span>Specialized in Depression, Anxiety, and Relationship Counseling</span>
+                  <span>Specialized in Depression, Anxiety, and Relationship Counselling</span>
                 </li>
               </ul>
               <Link
@@ -106,7 +106,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-semibold mb-4">Services Offered</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Professional counseling services tailored to your specific needs, delivered with compassion and expertise.
+              Professional counselling services tailored to your specific needs, delivered with compassion and expertise.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -132,7 +132,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-semibold mb-4">Client Testimonials</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Read what our clients have to say about their counseling experience.
+              Read what our clients have to say about their counselling experience.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -167,7 +167,7 @@ const Home = () => {
                 ))}
               </div>
               <p className="text-gray-700 mb-4">
-                "The marriage counseling sessions saved our relationship. We learned to communicate in ways we never had before, and our bond is stronger than ever."
+                "The marriage counselling sessions saved our relationship. We learned to communicate in ways we never had before, and our bond is stronger than ever."
               </p>
               <div className="flex items-center">
                 <div className="bg-green-100 rounded-full w-10 h-10 flex items-center justify-center">
