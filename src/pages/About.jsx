@@ -32,7 +32,7 @@ const About = () => {
               <p className="text-gray-700 mb-6 leading-relaxed">
                 As a {COUNSELOR_TITLE} with over 5 years of experience, I am passionate about providing 
                 compassionate care that addresses the whole person. My journey in mental health 
-                counseling began after witnessing the transformative power of therapy in my own life.
+                counselling began after witnessing the transformative power of therapy in my own life.
               </p>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 I believe that every individual has the capacity for growth and healing, and I am 
@@ -112,7 +112,7 @@ const About = () => {
                 My Therapeutic Approach
               </h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                My counseling philosophy is rooted in the belief that each person has unique 
+                My counselling philosophy is rooted in the belief that each person has unique 
                 needs and experiences. I draw from multiple therapeutic modalities to create 
                 a personalized approach for each client, including:
               </p>
