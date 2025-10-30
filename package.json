@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "server": "node server/server.js",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "render-build": "npm install && npm run build"
   },
   "dependencies": {
     "@paypal/paypal-server-sdk": "^0.5.2",
